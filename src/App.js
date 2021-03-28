@@ -1,18 +1,22 @@
 import React from 'react';
-// import { Counter } from './features/Counter';
+import styled from 'styled-components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Header from './components/Header';
 import './App.css';
+import Sidebar from './components/Sidebar';
 
 function App() {
 	return (
 		<div className='App'>
 			<Router>
 				<>
-					<Switch>
-						<Route path='/' exact>
-							<h1>home page</h1>
-						</Route>
-					</Switch>
+					<Header />
+					<MainbodyContainer>
+						<Sidebar />
+						<Switch>
+							<Route path='/' exact></Route>
+						</Switch>
+					</MainbodyContainer>
 				</>
 			</Router>
 		</div>
@@ -20,3 +24,7 @@ function App() {
 }
 
 export default App;
+const MainbodyContainer = styled.div`
+	height: 100vh;
+	display: flex;
+`;
