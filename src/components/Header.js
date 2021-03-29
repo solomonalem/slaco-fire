@@ -33,7 +33,6 @@ const HeaderContainer = styled.div`
 	justify-content: space-between;
 	padding: 10px 0;
 	background: var(--slaco-color);
-	/* padding: 2px 10px; */
 	color: white;
 `;
 
@@ -83,5 +82,6 @@ const HeaderSearchSection = styled.div`
 		outline: none;
 		color: white;
 		padding: 5px;
+        border:none;
 	}
 `;
