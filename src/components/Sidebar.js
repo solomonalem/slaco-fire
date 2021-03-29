@@ -63,7 +63,7 @@ export default Sidebar;
 const SidebarContainer = styled.div`
 	flex: 0.3;
 	margin-top: 60px;
-	background-color: rgba(86, 73, 210, 1);
+	background-color: var(--color-bg);
 	max-width: 260px;
 	color: white;
 

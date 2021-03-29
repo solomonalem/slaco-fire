@@ -25,6 +25,7 @@ function App() {
 }
 
 export default App;
+
 const MainbodyContainer = styled.div`
 	height: 100vh;
 	display: flex;

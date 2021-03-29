@@ -45,10 +45,12 @@ export default SidebarOption;
 
 const SidebarOptionContainer = styled.div`
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	align-items: center;
 	padding-left: 2px;
 	cursor: pointer;
+	background-color: var(--color-bg);
+
 	:hover {
 		opacity: 0.9;
 		background-color: var(--color-blue-3);
